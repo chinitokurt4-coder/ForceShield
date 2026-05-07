@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap');
+
+:root {
+    --primary: #1E3A8A;
+    --accent: #06B6D4;
+    --neutral: #E5E7EB;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a1a2f;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, var(--primary), #0a1a2f);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--accent);
+    margin: 5px 0;
+}
+
+header p {
+    color: var(--neutral);
+}
+
+/* NAV */
+nav a {
+    color: var(--neutral);
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+/* MAIN */
+main {
+    padding: 30px;
+}
+
+section {
+    background-color: rgba(255,255,255,0.05);
+    border-left: 4px solid var(--accent);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* FORM */
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background: var(--accent);
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0891b2;
+}
+
+/* FOOTER */
+footer {
+    background-color: #020617;
+    text-align: center;
+    padding: 15px;
+    color: var(--neutral);
+}
